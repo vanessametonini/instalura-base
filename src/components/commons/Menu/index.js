@@ -1,7 +1,7 @@
 import React from "react";
-import { Logo } from "../../theme/Logo";
+import { Logo } from "../../../theme/Logo";
 import { MenuWrapper } from "./styles/MenuWrapper";
-
+import { Button } from "../Button";
 
 const links  = [
   {
@@ -33,8 +33,8 @@ export function Menu() {
         })}
       </MenuWrapper.CentralSide>
       <MenuWrapper.RightSide>
-        <button>Entrar</button>
-        <button>Cadastrar</button>
+        <Button ghost variant="secondary.main">Entrar</Button>
+        <Button variant="primary.main">Cadastrar</Button>
       </MenuWrapper.RightSide> 
     </MenuWrapper>
   )
