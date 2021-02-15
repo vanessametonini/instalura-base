@@ -17,7 +17,7 @@ const links  = [
     url: '/sobre'
   },
 ]
-export function Menu() {
+export default function Menu() {
   return (
     <MenuWrapper>
       <MenuWrapper.LeftSide>
