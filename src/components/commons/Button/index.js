@@ -1,5 +1,6 @@
 import styled, {css} from "styled-components";
 import get from "lodash/get";
+import { TextStyleVariants } from "../../foundation/Text";
 
 const ButtonGhost = css`
   background: transparent;
@@ -24,4 +25,6 @@ export const Button = styled.button`
   &:focus {
     opacity: .5;
   }
+
+  ${TextStyleVariants.smallestException}
 `
